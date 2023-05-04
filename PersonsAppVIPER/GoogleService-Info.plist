@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>834214740173-4skn7j3s0lre5t7mnkp8l725ucn0n26v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.834214740173-4skn7j3s0lre5t7mnkp8l725ucn0n26v</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBq3lg76dAJyYnKhbmU07pONdVseqDOZ-o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>834214740173</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.eyuphanakkaya.PersonsAppVIPER</string>
+	<key>PROJECT_ID</key>
+	<string>egitim2-2a906</string>
+	<key>STORAGE_BUCKET</key>
+	<string>egitim2-2a906.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:834214740173:ios:f64678ebb1ae2fec0f6984</string>
+</dict>
+</plist>

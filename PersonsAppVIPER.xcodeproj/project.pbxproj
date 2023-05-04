@@ -9,21 +9,56 @@
 /* Begin PBXBuildFile section */
 		A4B334AF2A024DED0097EA65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334AE2A024DED0097EA65 /* AppDelegate.swift */; };
 		A4B334B12A024DED0097EA65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334B02A024DED0097EA65 /* SceneDelegate.swift */; };
-		A4B334B32A024DED0097EA65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334B22A024DED0097EA65 /* ViewController.swift */; };
+		A4B334B32A024DED0097EA65 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334B22A024DED0097EA65 /* AnasayfaVC.swift */; };
 		A4B334B62A024DED0097EA65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B334B42A024DED0097EA65 /* Main.storyboard */; };
 		A4B334B82A024DEE0097EA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B334B72A024DEE0097EA65 /* Assets.xcassets */; };
 		A4B334BB2A024DEE0097EA65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B334B92A024DEE0097EA65 /* LaunchScreen.storyboard */; };
+		A4B334C32A024EA80097EA65 /* KisiKayitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334C22A024EA80097EA65 /* KisiKayitVC.swift */; };
+		A4B334C52A024EB50097EA65 /* KisiDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334C42A024EB50097EA65 /* KisiDetayVC.swift */; };
+		A4B334C72A0253100097EA65 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334C62A0253100097EA65 /* Kisiler.swift */; };
+		A4B334C92A0256830097EA65 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334C82A0256830097EA65 /* TableViewCell.swift */; };
+		A4B334E12A02619E0097EA65 /* AnasayfaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334E02A02619E0097EA65 /* AnasayfaPresenter.swift */; };
+		A4B334E32A0261B60097EA65 /* AnasayfaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334E22A0261B60097EA65 /* AnasayfaInteractor.swift */; };
+		A4B334E52A0261C70097EA65 /* AnasayfaProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334E42A0261C70097EA65 /* AnasayfaProtocols.swift */; };
+		A4B334E82A0261D80097EA65 /* AnasayfaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334E72A0261D80097EA65 /* AnasayfaRouter.swift */; };
+		A4B334EA2A0262280097EA65 /* KisiKayitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334E92A0262280097EA65 /* KisiKayitPresenter.swift */; };
+		A4B334EC2A0262440097EA65 /* KisiKayitInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334EB2A0262440097EA65 /* KisiKayitInteractor.swift */; };
+		A4B334EE2A0262760097EA65 /* KisiKayitProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334ED2A0262760097EA65 /* KisiKayitProtocols.swift */; };
+		A4B334F02A0262880097EA65 /* KisiKayitRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334EF2A0262880097EA65 /* KisiKayitRouter.swift */; };
+		A4B334F22A0262B80097EA65 /* KisiDetayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334F12A0262B80097EA65 /* KisiDetayPresenter.swift */; };
+		A4B334F42A0262D30097EA65 /* KisiDetayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334F32A0262D30097EA65 /* KisiDetayInteractor.swift */; };
+		A4B334F62A0262F80097EA65 /* KisiDetayProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334F52A0262F80097EA65 /* KisiDetayProtocols.swift */; };
+		A4B334F82A0263090097EA65 /* KisiDetayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B334F72A0263090097EA65 /* KisiDetayRouter.swift */; };
+		A4FA47972A03B0D000A217EA /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A4FA47962A03B0D000A217EA /* FirebaseDatabase */; };
+		A4FA47992A03B15B00A217EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4FA47982A03B15B00A217EA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4B334AB2A024DED0097EA65 /* PersonsAppVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsAppVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B334AE2A024DED0097EA65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4B334B02A024DED0097EA65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4B334B22A024DED0097EA65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4B334B22A024DED0097EA65 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
 		A4B334B52A024DED0097EA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4B334B72A024DEE0097EA65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4B334BA2A024DEE0097EA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4B334BC2A024DEE0097EA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B334C22A024EA80097EA65 /* KisiKayitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitVC.swift; sourceTree = "<group>"; };
+		A4B334C42A024EB50097EA65 /* KisiDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayVC.swift; sourceTree = "<group>"; };
+		A4B334C62A0253100097EA65 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		A4B334C82A0256830097EA65 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A4B334E02A02619E0097EA65 /* AnasayfaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaPresenter.swift; sourceTree = "<group>"; };
+		A4B334E22A0261B60097EA65 /* AnasayfaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaInteractor.swift; sourceTree = "<group>"; };
+		A4B334E42A0261C70097EA65 /* AnasayfaProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaProtocols.swift; sourceTree = "<group>"; };
+		A4B334E72A0261D80097EA65 /* AnasayfaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaRouter.swift; sourceTree = "<group>"; };
+		A4B334E92A0262280097EA65 /* KisiKayitPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitPresenter.swift; sourceTree = "<group>"; };
+		A4B334EB2A0262440097EA65 /* KisiKayitInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitInteractor.swift; sourceTree = "<group>"; };
+		A4B334ED2A0262760097EA65 /* KisiKayitProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitProtocols.swift; sourceTree = "<group>"; };
+		A4B334EF2A0262880097EA65 /* KisiKayitRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitRouter.swift; sourceTree = "<group>"; };
+		A4B334F12A0262B80097EA65 /* KisiDetayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayPresenter.swift; sourceTree = "<group>"; };
+		A4B334F32A0262D30097EA65 /* KisiDetayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayInteractor.swift; sourceTree = "<group>"; };
+		A4B334F52A0262F80097EA65 /* KisiDetayProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayProtocols.swift; sourceTree = "<group>"; };
+		A4B334F72A0263090097EA65 /* KisiDetayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayRouter.swift; sourceTree = "<group>"; };
+		A4FA47982A03B15B00A217EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FA47972A03B0D000A217EA /* FirebaseDatabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +94,190 @@
 			children = (
 				A4B334AE2A024DED0097EA65 /* AppDelegate.swift */,
 				A4B334B02A024DED0097EA65 /* SceneDelegate.swift */,
-				A4B334B22A024DED0097EA65 /* ViewController.swift */,
+				A4B334DF2A02614B0097EA65 /* entity */,
+				A4B334CA2A025FFF0097EA65 /* anasayfa-module */,
+				A4B334D12A0260660097EA65 /* kisikayit-module */,
+				A4B334D22A0260720097EA65 /* kisiDetay-module */,
 				A4B334B42A024DED0097EA65 /* Main.storyboard */,
 				A4B334B72A024DEE0097EA65 /* Assets.xcassets */,
 				A4B334B92A024DEE0097EA65 /* LaunchScreen.storyboard */,
 				A4B334BC2A024DEE0097EA65 /* Info.plist */,
+				A4FA47982A03B15B00A217EA /* GoogleService-Info.plist */,
 			);
 			path = PersonsAppVIPER;
+			sourceTree = "<group>";
+		};
+		A4B334CA2A025FFF0097EA65 /* anasayfa-module */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334DE2A0261400097EA65 /* tableView */,
+				A4B334D02A0260590097EA65 /* presenter */,
+				A4B334CF2A02604D0097EA65 /* interactor */,
+				A4B334CD2A0260190097EA65 /* protocols */,
+				A4B334CC2A0260120097EA65 /* router */,
+				A4B334CB2A02600C0097EA65 /* view */,
+			);
+			path = "anasayfa-module";
+			sourceTree = "<group>";
+		};
+		A4B334CB2A02600C0097EA65 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334B22A024DED0097EA65 /* AnasayfaVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A4B334CC2A0260120097EA65 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334E72A0261D80097EA65 /* AnasayfaRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		A4B334CD2A0260190097EA65 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334E42A0261C70097EA65 /* AnasayfaProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		A4B334CF2A02604D0097EA65 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334E22A0261B60097EA65 /* AnasayfaInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		A4B334D02A0260590097EA65 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334E02A02619E0097EA65 /* AnasayfaPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		A4B334D12A0260660097EA65 /* kisikayit-module */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334D82A0260C40097EA65 /* presenter */,
+				A4B334D72A0260BA0097EA65 /* interactor */,
+				A4B334D62A0260B00097EA65 /* protocols */,
+				A4B334D52A0260A70097EA65 /* router */,
+				A4B334D42A0260A00097EA65 /* view */,
+			);
+			path = "kisikayit-module";
+			sourceTree = "<group>";
+		};
+		A4B334D22A0260720097EA65 /* kisiDetay-module */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334DA2A0260EF0097EA65 /* view */,
+				A4B334DD2A0261070097EA65 /* presenter */,
+				A4B334DC2A0260FD0097EA65 /* interactor */,
+				A4B334DB2A0260F40097EA65 /* protocols */,
+				A4B334D92A0260E90097EA65 /* router */,
+			);
+			path = "kisiDetay-module";
+			sourceTree = "<group>";
+		};
+		A4B334D42A0260A00097EA65 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334C22A024EA80097EA65 /* KisiKayitVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A4B334D52A0260A70097EA65 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334EF2A0262880097EA65 /* KisiKayitRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		A4B334D62A0260B00097EA65 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334ED2A0262760097EA65 /* KisiKayitProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		A4B334D72A0260BA0097EA65 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334EB2A0262440097EA65 /* KisiKayitInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		A4B334D82A0260C40097EA65 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334E92A0262280097EA65 /* KisiKayitPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		A4B334D92A0260E90097EA65 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334F72A0263090097EA65 /* KisiDetayRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		A4B334DA2A0260EF0097EA65 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334C42A024EB50097EA65 /* KisiDetayVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A4B334DB2A0260F40097EA65 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334F52A0262F80097EA65 /* KisiDetayProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		A4B334DC2A0260FD0097EA65 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334F32A0262D30097EA65 /* KisiDetayInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		A4B334DD2A0261070097EA65 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334F12A0262B80097EA65 /* KisiDetayPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		A4B334DE2A0261400097EA65 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334C82A0256830097EA65 /* TableViewCell.swift */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
+		A4B334DF2A02614B0097EA65 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				A4B334C62A0253100097EA65 /* Kisiler.swift */,
+			);
+			path = entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +296,9 @@
 			dependencies = (
 			);
 			name = PersonsAppVIPER;
+			packageProductDependencies = (
+				A4FA47962A03B0D000A217EA /* FirebaseDatabase */,
+			);
 			productName = PersonsAppVIPER;
 			productReference = A4B334AB2A024DED0097EA65 /* PersonsAppVIPER.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +327,9 @@
 				Base,
 			);
 			mainGroup = A4B334A22A024DED0097EA65;
+			packageReferences = (
+				A4FA47952A03B0D000A217EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = A4B334AC2A024DED0097EA65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B334BB2A024DEE0097EA65 /* LaunchScreen.storyboard in Resources */,
+				A4FA47992A03B15B00A217EA /* GoogleService-Info.plist in Resources */,
 				A4B334B82A024DEE0097EA65 /* Assets.xcassets in Resources */,
 				A4B334B62A024DED0097EA65 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +358,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4B334B32A024DED0097EA65 /* ViewController.swift in Sources */,
+				A4B334EC2A0262440097EA65 /* KisiKayitInteractor.swift in Sources */,
+				A4B334C52A024EB50097EA65 /* KisiDetayVC.swift in Sources */,
+				A4B334F42A0262D30097EA65 /* KisiDetayInteractor.swift in Sources */,
+				A4B334F22A0262B80097EA65 /* KisiDetayPresenter.swift in Sources */,
+				A4B334F02A0262880097EA65 /* KisiKayitRouter.swift in Sources */,
+				A4B334EA2A0262280097EA65 /* KisiKayitPresenter.swift in Sources */,
+				A4B334B32A024DED0097EA65 /* AnasayfaVC.swift in Sources */,
+				A4B334F62A0262F80097EA65 /* KisiDetayProtocols.swift in Sources */,
 				A4B334AF2A024DED0097EA65 /* AppDelegate.swift in Sources */,
+				A4B334E32A0261B60097EA65 /* AnasayfaInteractor.swift in Sources */,
+				A4B334EE2A0262760097EA65 /* KisiKayitProtocols.swift in Sources */,
 				A4B334B12A024DED0097EA65 /* SceneDelegate.swift in Sources */,
+				A4B334E52A0261C70097EA65 /* AnasayfaProtocols.swift in Sources */,
+				A4B334F82A0263090097EA65 /* KisiDetayRouter.swift in Sources */,
+				A4B334C32A024EA80097EA65 /* KisiKayitVC.swift in Sources */,
+				A4B334E82A0261D80097EA65 /* AnasayfaRouter.swift in Sources */,
+				A4B334C92A0256830097EA65 /* TableViewCell.swift in Sources */,
+				A4B334E12A02619E0097EA65 /* AnasayfaPresenter.swift in Sources */,
+				A4B334C72A0253100097EA65 /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +594,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4FA47952A03B0D000A217EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4FA47962A03B0D000A217EA /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4FA47952A03B0D000A217EA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A4B334A32A024DED0097EA65 /* Project object */;
 }
